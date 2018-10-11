@@ -77,6 +77,7 @@ export default class RequireNewPassword extends AuthPiece {
                         />
                         <AmplifyButton
                             text={I18n.get('Change Password')}
+                            theme={theme}
                             onPress={this.change}
                             disabled={!this.state.password}
                         />

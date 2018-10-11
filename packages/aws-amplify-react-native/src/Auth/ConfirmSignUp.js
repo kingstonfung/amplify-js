@@ -92,6 +92,7 @@ export default class ConfirmSignUp extends AuthPiece {
                         />
                         <AmplifyButton
                             text={I18n.get('Confirm')}
+                            theme={theme}
                             onPress={this.confirm}
                             disabled={!this.state.username || !this.state.code}
                         />
